@@ -63,6 +63,9 @@ public:
         return result; // think why - ans for chaining
     }
 
+    int getRows() const { return rows; } //accessors for tests
+    int getCols() const { return cols; }
+
 };
 
 }
